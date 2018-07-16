@@ -1,6 +1,5 @@
 <?php
 
-
   $nome ="Joaquim";
 
   echo $nome."mais alguma coisa";
