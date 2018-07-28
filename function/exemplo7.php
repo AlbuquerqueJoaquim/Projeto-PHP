@@ -1,19 +1,15 @@
 <?php
 
-    //passando o variavel por referencia &
+    function soma(float ...$valores):float{
 
-    $pessoa = array(
-      'nome' => 'Paulo',
-      'idade' => 20
-    );
-    foreach ($pessoa as $value) {
-
-      if (gettype($value) === 'integer') $value += 10;
-
-        echo $value.'<br>';
+      return array_sum($valores);
     }
-
-    print_r($pessoa);
+    echo soma(5, 4);
+    echo "<br>";
+    echo soma(21, 22);
+    echo "<br>";
+    echo soma(1.2, 3.32);
+    echo "<br>";
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
@@ -21,7 +17,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-	<title> Function  </title>
+	<title> Funcion </title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 1.27" />
 </head>
