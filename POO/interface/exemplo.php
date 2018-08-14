@@ -3,6 +3,7 @@
        /**
         *
         */
+        //criando a interface
        interface veiculo
        {
          public function acelerar($velocidade);
