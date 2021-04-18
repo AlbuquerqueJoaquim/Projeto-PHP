@@ -1,7 +1,7 @@
 <?php
 
 //conectando ao bando
-  $conn = new mysqli("127.0.0.1", "root", "JJ*21021990", "dbphp7");
+  $conn = new mysqli("127.0.0.1", "root", "123@abc", "dbphp7");
 
 //verificando um erro
   if ($conn-> connect_error) {
